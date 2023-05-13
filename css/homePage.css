@@ -1,0 +1,125 @@
+@import "./mainStyle.css";
+
+
+
+/* Start Header */
+
+
+/* carsoul */
+
+.cutoms-car-cap {
+  background-color: var(--mainColor);
+  border-radius: var(--bs-border-radius-lg);
+  text-align: start;
+  padding: 15px;
+
+}
+
+.car-cap-btn-wrpper {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  /* padding: 15px; */
+}
+
+.cutoms-car-cap h5 {
+  
+  font-weight: 600;
+  font-size: large;
+}
+
+.customs-mag{
+  flex-wrap: wrap;
+}
+.customs-mag>div{
+/* width: 20%; */
+/* width: max-content; */
+
+  flex-basis: 33.33%;
+}
+
+
+.customs-mag>div>a{
+  color: var(--mainColor);
+  font-weight: 600;
+}
+
+
+.news-date{
+  background-color: var(--secondColor);
+  /* padding: 20px; */
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  /* align-items: center; */
+  justify-content: center;
+
+}
+
+.news-date p{
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  padding: 5px;
+  margin: 0px;
+}
+
+.most-viewd-wrpper{
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: -2px -64px 36px -33px rgba(0,0,0,0.20) inset;
+  -webkit-box-shadow: -2px -64px 36px -33px rgba(0,0,0,0.20) inset;
+  -moz-box-shadow: -2px -64px 36px -33px rgba(0,0,0,0.20) inset;
+
+}
+
+.conatct-wrapper>div{
+/* flex-basis: 25%; */
+/* width: ; */
+/* margin-left: 15%; */
+min-width: 30%;
+margin-left: 5%;
+border-radius: 10px;
+height: 150px;
+background-color: #fff;
+padding: 15px;
+cursor: pointer;
+transition: all 0.5s ease-in-out;
+}
+
+.conatct-wrapper>div:hover{
+  background-color: var(--mainColor);
+  color: #fff !important;
+}
+.main-phone-number{
+  background-color: #fff;
+  height: 150px;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+
+.shdow-section{
+  padding-bottom: 5rem !important;
+}
+
+/* owl nav */
+
+.owl-nav{
+  display: flex;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+  display: block;
+  background-color: var(--main-gray-color);
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  min-width: 50px;
+  border-radius: 5px;
+  /* box-shadow:; */
+
+}
+

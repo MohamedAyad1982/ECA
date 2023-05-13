@@ -1,0 +1,21 @@
+
+@import "./mainStyle.css";
+
+body{
+    background-image: url("../images/ba_login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.login-from-container{
+    height: 100vh;
+    background-color: var(--secondColor);
+    width: 700px;
+    position: relative;
+}
+
+
+.logo-img-box{
+    width: 75px;
+}
