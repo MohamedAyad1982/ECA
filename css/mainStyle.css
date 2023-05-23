@@ -80,7 +80,7 @@ h1{
 .custom-btn-primary{
   background-color: var(--mainColor);
   border: none;
-  
+
 }
 
 .custom-btn-primary:hover{
@@ -90,7 +90,7 @@ h1{
 .customs-outline-btn{
   border: 1px solid var(--mainColor);
   color: var(--mainColor);
-
+transition: all 0.5s ease-in-out;
 }
 
 .customs-outline-btn:hover{
