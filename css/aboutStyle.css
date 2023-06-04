@@ -138,3 +138,30 @@
     padding: 15px;
     border-bottom:  1px solid #eee;
 }
+
+
+.aeo-wrapper{
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-top:15px
+}
+.aeo-par{
+    text-justify:kashida;
+    text-align: justify;
+    
+}
+.aeo-header{
+        color: var(--mainColor);    
+    border-bottom:solid 5px ;
+padding-bottom: 15px;
+padding-top: 15px;
+}
+
+.aeo-list{
+}
+.aeo-list li {
+ padding-left: 15px;
+    font-size: 24px;
+    /* font-weight: 600; */
+    /* color: var(--mainColorDark) */
+}

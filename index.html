@@ -49,13 +49,36 @@
         <div class="col-md-6 col-sm-12">
           <div class="d-flex justify-content-end align-items-center auth-btns-wraper">
             <div class="px-2">
-              <a href="#" class="btn  btn-sm custom-btn-primary rounded-pill text-white">
+              <!-- <a href="#" class="btn  btn-sm custom-btn-primary rounded-pill text-white">
                 <i class="fa-solid fa-user"></i>
                 <span>
 
                   تسجيل الدخول
                 </span>
-              </a>
+              </a> -->
+              <div class="dropdown">
+                <button class="btn  btn-sm custom-btn-primary rounded-pill text-white dropdown-toggle" type="button"
+                  id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  محمد عياد
+                </button>
+                <ul class="dropdown-menu auth-dropdown" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">
+
+                      <i class="fa-sharp fa-solid fa-user-tie"></i>
+                      <span>الملف الشخصي</span>
+                    </a></li>
+                  <li><a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-clock-rotate-left"></i>
+                      <span>
+                        طلبات سابقة
+                      </span>
+                    </a></li>
+                  <li><a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-right-from-bracket"></i>
+                      <span>تسجيل خروج</span>
+                    </a></li>
+                </ul>
+              </div>
 
             </div>
             <div class="px-2">
@@ -91,7 +114,7 @@
 
 
   <!-- START  of  nav  -->
-  <nav class="navbar navbar-expand-lg customs-nav navbar-dark sticky-top">
+  <nav class="navbar navbar-expand-lg customs-nav navbar-dark sticky-top " id="mainNavBar">
     <div class="container parant-nav">
       <a class="navbar-brand" href="#">مصلحة الجمارك المصرية</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -501,12 +524,12 @@
                     فيديوهات
                   </a>
                 </li>
-        
+
               </ul>
               <ul>
                 <li class="pa-4">
                   <h5 class="text-white fs-4 fw-bold">
-                     مجلة الجمارك
+                    مجلة الجمارك
                   </h5>
 
                 </li>
@@ -522,18 +545,19 @@
                     مجلة الجمارك
                   </a>
                 </li>
-        
+
               </ul>
             </div>
           </li>
 
         </ul>
-        <form class="d-flex">
+        <!-- <form class="d-flex">
           <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
           <button class="btn rounded-pill text-white" type="submit">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
-        </form>
+        </form> -->
+
       </div>
     </div>
   </nav>
@@ -626,72 +650,72 @@
       </div>
 
       <div class="row">
-        <div class="col-6 " >
+        <div class="col-6 ">
           <div class="wow animate__fadeIn" data-wow-duration="2s">
             <h4>
               الخدمات الالكترونية
             </h4>
           </div>
         </div>
-        <div class="col-6 wow " >
+        <div class="col-6 wow ">
           <div class="wow animate__fadeIn" data-wow-duration="2s">
 
-            <a href="#" class="btn btn-outline-secondary">
+            <a href="#" class="btn btn-outline-secondary rounded-pill">
               كل الخدمات
               <i class="fa-solid fa-arrow-left-long"></i>
             </a>
-            
+
           </div>
         </div>
       </div>
 
       <div class="row py-4">
         <div class="col-md-3 col-sm-6">
-          <div class="card wow animate__fadeIn">
+          <div class="card servises-wrape-btn d-flex justify-content-center align-items-center wow animate__fadeIn">
             <div class="card-body">
-              <a href="#" class="round-btn">
-                <i class="fa-solid fa-arrow-down-long"></i>
+              <a href="#" class="services-main-btn">
+                <i class="fa-solid fa-file-shield fa-2xl"></i>
+                <!-- <i class="fa-solid fa-arrow-down-long"></i> -->
               </a>
 
-              <h5 class="card-title">
+              <h5 class="card-title text-center pt-4">
                 المنشورات
               </h5>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="card wow animate__fadeIn">
+          <div class="card servises-wrape-btn d-flex justify-content-center align-items-center wow animate__fadeIn">
             <div class="card-body ">
-              <a href="#" class="round-btn">
-                <i class="fa-solid fa-arrow-down-long"></i>
+              <a href="#" class="services-main-btn">
+                <i class="fa-solid fa-list-check fa-2xl"></i>
               </a>
 
-              <h5 class="card-title">
+              <h5 class="card-title text-center pt-4">
                 التعريفة الجمركية
               </h5>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="card wow animate__fadeIn">
+          <div class="card servises-wrape-btn d-flex justify-content-center align-items-center wow animate__fadeIn">
             <div class="card-body">
-              <a href="#" class="round-btn">
-                <i class="fa-solid fa-arrow-down-long"></i>
+              <a href="#" class="services-main-btn">
+                <i class="fa-solid fa-plane-circle-exclamation fa-2xl"></i>
               </a>
 
-              <h5 class="card-title">
+              <h5 class="card-title text-center pt-4">
                 دليل المسافرين
               </h5>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="card wow animate__fadeIn">
+          <div class="card servises-wrape-btn d-flex justify-content-center align-items-center wow animate__fadeIn">
             <div class="card-body">
-              <a href="#" class="round-btn">
-                <i class="fa-solid fa-arrow-down-long"></i>
-              </a>
-              <h5 class="card-title">
+              <a href="#" class="services-main-btn">
+                <i class="fa-solid fa-hand-holding-dollar fa-2xl"></i> </a>
+              <h5 class="card-title text-center pt-4">
                 الاسعار
               </h5>
             </div>
@@ -702,9 +726,121 @@
 
   </section>
   <!-- End of services Section -->
-
   <!-- Start of News section -->
-  <section class="section-grey p-3">
+  <section class="section-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="sectionLine my-4"></div>
+          <h3>أخر الموضوعات</h3>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+
+              <div class="card d-flex">
+                <div class="d-flex">
+                  <div>
+                    <img src="./images/news.jpg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="p-4 ">
+                    <p>
+                      18/5/2022
+                    </p>
+
+
+                    <a href="#" class=" news-link p-4">
+                      <p class="text-al-just ">
+
+                        أجتماع السيد رئيس مصلحة الجمارك مع بعثة صندوق النقد الدولي في نهاية ورشة العمل التي تم انعقادها
+                        خلال الفترة من 14 الى 18 مايو لتقييم اداء الخطة الإستراتيجية لمصلحة الجمارك 2020 :2023
+                      </p>
+
+                    </a>
+                  </div>
+
+                </div>
+                <div>
+
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-6 mt-2">
+                  <div class="news-card-wrapper main-shadow d-flex">
+                    <div class="news-img-wrapper">
+                      <img src="./images/news2.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div>
+                      <p>
+                        18/5/2022
+                      </p>
+                      <a href="#" class="news-link">
+                        بدء تطبيق منظومة الفاتورة الالكترونية على الوارادات والصادرات المصرية
+
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 mt-2">
+                  <div class="news-card-wrapper main-shadow d-flex">
+                    <div class="news-img-wrapper">
+                      <img src="./images/news2.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div>
+                      <a href="#" class="news-link">
+                        بدء تطبيق منظومة الفاتورة الالكترونية على الوارادات والصادرات المصرية
+
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mt-2">
+                  <div class="news-card-wrapper main-shadow d-flex">
+                    <div class="news-img-wrapper">
+                      <img src="./images/news2.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div>
+                      <a href="#" class="news-link">
+                        بدء تطبيق منظومة الفاتورة الالكترونية على الوارادات والصادرات المصرية
+
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mt-2">
+                  <div class="news-card-wrapper main-shadow d-flex">
+                    <div class="news-img-wrapper">
+                      <img src="./images/news.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div>
+                      <a href="#" class="news-link">
+                        بدء تطبيق منظومة الفاتورة الالكترونية على الوارادات والصادرات المصرية
+
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- <section class="section-grey p-3">
 
     <div class="container">
       <div class="row">
@@ -821,7 +957,7 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
 
 
   <!-- start of most viewed videos -->
@@ -1143,31 +1279,78 @@
             <div class="d-flex conatct-wrapper">
               <div class="main-shadow d-flex justify-content-start align-items-center">
                 <div class="contact-numbers">
-                  <p class=" fw-bold customs-primary-color big-font">122 </p>
+                  <i class="fa-solid fa-phone-volume fa-2x"></i>
+                  <p class=" fw-bold  big-font">15460 </p>
                   <p class="">الخط الساخن</p>
                 </div>
               </div>
               <div class="main-shadow d-flex justify-content-start align-items-center">
                 <div class="contact-numbers">
-                  <p class=" fw-bold customs-primary-color big-font">122 </p>
-                  <p class="">الخط الساخن</p>
+                  <i class="fa-regular fa-envelope fa-2xl"></i>
+                  <p class=" fw-bold  ">
+                    complaints@customs.gov.eg
+
+                  </p>
+                  <p class="">
+                    البريد الاليكتروني
+                  </p>
                 </div>
               </div>
               <div class="main-shadow d-flex justify-content-start align-items-center">
                 <div class="contact-numbers">
-                  <p class=" fw-bold customs-primary-color big-font">122 </p>
-                  <p class="">الخط الساخن</p>
+                  <i class="fa-solid fa-box-archive fa-2xl"></i>
+                  <!-- <p class=" fw-bold  big-font">122 </p> -->
+                  <p class="fw-bold">
+                    منظومة  الشكاوي
+                  </p>
                 </div>
               </div>
 
             </div>
             <div class="main-phone-number main-shadow">
-              <p class="fw-bold customs-primary-color big-font">
-                1000
-              </p>
+              <i class="fa-brands fa-whatsapp fa-2x"></i>
               <p class="lead">
-                حوادث المرور
+                ارقام الواتس اب
               </p>
+              <p class="fw-bold  big-font">
+                <ul>
+                  <li class="d-flex justify-content-between">
+                      <a href="https://wa.me/201222200899" target="_blank">
+                          غرفة العمليات المركزية لمنظومة الـ aci
+                      </a>
+                      <p>
+                          01222200899
+                      </p>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <a href="https://wa.me/201090971149" target="_blank">
+
+                          شكاوى هيئة مكافحة الفساد
+                      </a>
+                      <p>
+                          01090971149
+                      </p>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <a href="https://wa.me/201211659650" target="_blank">
+                      شكاوى لوحدة متابعة المهمل
+                      </a>
+                      <p>
+                          01211659650
+                      </p>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <a href="https://wa.me/201001045532" target="_blank">
+                      رقم شكاوى المشغل الاقتصادي المعتمد
+                      </a>
+                      <p>
+                          01001045532
+                      </p>
+                  </li>
+
+              </ul>
+              </p>
+
             </div>
 
           </div>
@@ -1175,7 +1358,7 @@
         <div class="col-md-3 col-sm-12">
           <div class="customs-banner">
             <div class="customs-card">
-              <img src="./images/banner.png" class="img-fluid" alt="">
+              <img src="./images/banner2.png" class="img-fluid" alt="">
             </div>
           </div>
         </div>
@@ -1194,12 +1377,12 @@
 
   <!-- Start of footer -->
 
-  <section class="primary-section-bg py-4 mt-5 footer-section">
+  <section class="primary-section-bg   footer-section">
     <div class="container">
       <div class="row">
         <div class="col">
           <div class="footer-wraper">
-            <div class="client-form ">
+            <!-- <div class="client-form ">
               <div class="sectionLine my-4"></div>
               <h4 class="white-text">استطلاع رأي</h4>
               <p class="white-text">
@@ -1219,7 +1402,7 @@
                   <textarea name="" class="form-control" id="" cols="30" rows="5"></textarea>
                 </div>
               </div>
-            </div>
+            </div> -->
 
 
           </div>
@@ -1303,6 +1486,15 @@
   </section>
   <!-- End of footer -->
 
+  <div class="social-media-links main-shadow">
+    <a href="https://www.facebook.com/egyptcustoms" target="_blank" class="faceBook">
+      <i class="fa-brands fa-facebook fa-2x "></i>
+    </a>
+    <a class="youtube"  href="https://www.youtube.com/@Egyptian_customs" target="_blank">
+      <i class="fa-brands fa-youtube fa-2x"></i>
+    </a>
+
+  </div>
   <!-- Start of  -->
   <script src="./js/bootstrap.bundle.min.js"></script>
   <script src="./js/jquery-3.6.0.min.js"></script>
